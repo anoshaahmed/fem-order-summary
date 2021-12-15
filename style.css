@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: #e0e8ff;
+    --bright-blue: #3829e0;
+    --sat-blue: #7280a7;
+    --dark-blue: #1f2f56;
+    --lavender: #766cf1;
+}
+
+* {
+    /* box-sizing: border-box; */
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 40px;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 16.5px;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+p {
+    color: var(--sat-blue);
+    line-height: 1.6;
+    margin: 18px 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 20px 40px #c7cff2;
+}
+
+.banner img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.plan {
+    height: 100px;
+    background-color: #f8f9fe;
+    margin: 21px 48px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.plan img {
+    align-self: center;
+    justify-self: center;
+    margin-left: 24px;
+}
+
+.plan .plan-info {
+    font-size: 16.5px;
+    align-self: center;
+    margin-left: 20px;
+    line-height: 1.6;
+    color: var(--sat-blue);
+}
+
+.plan a {
+    align-self: center;
+    color: var(--bright-blue);
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.plan a:hover {
+    color: var(--lavender);
+    text-decoration: none;
+}
+
+.btn {
+    height: 50px;
+    margin: 30px 48px;
+    background-color: var(--bright-blue);
+    border-radius: 12px;
+    color: #f5f7ff;
+    box-shadow: 0 16px 22px #cdc7ff;
+}
+
+.btn:hover {
+    background-color: var(--lavender);
+}
+
+.btn button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.cancel {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 32px;
+    color: var(--sat-blue);
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+/* Attribution */
+.attribution {
+    position: absolute;
+    bottom: 3px;
+    font-size: 10px;
+    color: var(--sat-blue);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.attribution a:hover {
+    color: var(--lavender);
+    cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 376px) {
+    html, body {
+        background: url(images/pattern-background-mobile.svg) no-repeat;
+        background-color: var(--pale-blue)
+    }
+
+    .card {
+        width: 330px;
+        height: 570px;
+    }
+
+    .banner img {
+        width: 330px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-top: 28px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+    
+    p {
+        margin: 16px 35px;
+        font-size: 15px;
+    }
+
+    .plan {
+        height: 80px;
+        margin: 21px 22px;
+    }
+    
+    .plan .plan-info {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    
+    .plan a {
+        font-size: 12px;
+    }
+
+    .btn {
+        margin: 24px 22px;
+    }
+
+    .cancel {
+        margin-top: 24px;
+    }
+}
