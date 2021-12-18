@@ -1,4 +1,3 @@
-# order-summary
 # Frontend Mentor - Order summary card solution
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
@@ -9,14 +8,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
-  - [Link](#link)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -32,9 +30,9 @@ Users should be able to:
 - Preview of my solution on a desktop screen [Desktop](solution-screenshots/desktop-solution.png)
 - Preview of my solution on a mobile screen [Mobile](solution-screenshots/mobile-solution.png)
 
-### Link
-
-- Solution URL: [GitHub Page](https://anoshaahmed.github.io/order-summary/)
+### Links
+- Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-and-css-grid-UP1iy9-xG)
+- Live Site URL: [GitHub Page: Order Summary](https://anoshaahmed.github.io/order-summary/)
 
 
 ## My process
