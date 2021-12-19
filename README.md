@@ -84,3 +84,4 @@ I tried being better than my last project on organizing my HTML, however I aim t
 - Website - [Anosha Ahmed](https://www.anoshaahmed.com) - This is my website. There's nothing there at the moment but in the future there will.
 - Frontend Mentor - [@anoshaahmed](https://www.frontendmentor.io/profile/anoshaahmed)
 - GitHub - [@anoshaahmed](https://www.github.com/anoshaahmed)
+- Twitter - [@anosha1ahmed](https://www.twitter.com/anosha1ahmed)
