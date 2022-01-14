@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-and-css-grid-UP1iy9-xG)
-- Live Site URL: [GitHub Page: Order Summary](https://anoshaahmed.github.io/fem-order-summary/)
+- Live Site URL: [GitHub Page: Order Summary](https://anoshaahmed.github.io/fem02-order-summary/)
 
 
 ## My process
